@@ -27,6 +27,10 @@ html, body {
 
 }
 
+#headerlinktext {
+    text-decoration: none;
+}
+
 .navmenu {
     margin-top: 20px;
 }
@@ -35,4 +39,9 @@ html, body {
     text-decoration: none;
     color: #708d81ff;
     margin: 10px;
+}
+
+.techstacksimg {
+    width: 25%;
+    border: 3px solid #f4d58dff;
 }
