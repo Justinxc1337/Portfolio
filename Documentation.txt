@@ -1,0 +1,8 @@
+Website Color Codes
+/* CSS HEX */
+--oxford-blue: #001427ff; Website Background
+--hookers-green: #708d81ff; Third Important
+--jasmine: #f4d58dff; idk
+--engineering-orange: #bf0603ff; Mostly Important
+--dark-red: #8d0801ff; Secondary Important
+
