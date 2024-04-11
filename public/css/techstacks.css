@@ -24,7 +24,6 @@ html, body {
     text-align: center;
     color: #8d0801ff;
     margin: 0;
-
 }
 
 #headerlinktext {
@@ -42,6 +41,12 @@ html, body {
 }
 
 .techstacksimg {
-    width: 25%;
+    width: 80%;
     border: 3px solid #f4d58dff;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.sections {
+    display: flex;
 }
