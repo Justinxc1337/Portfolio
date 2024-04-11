@@ -17,6 +17,7 @@ html, body {
     text-align: center;
     color: #bf0603ff;
     margin: 0;
+    margin-top: 10px;
 }
 
 #headertitel {
@@ -50,17 +51,44 @@ html, body {
 
 .sections {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.sections section {
+    flex-basis: 20%;
+    /* antal sections i hvert row = 5*/
+
 }
 
 .imgtext {
     color: #f4d58dff;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (min-width: 900px) and (max-width: 1300px) {
     .imgtext {
         font-size: 1.5em;
     }
     
+}
+
+@media screen and (min-width: 400px) and (max-width: 900px) {
+    .imgtext {
+        font-size: 1em;
+    }
+    
+} */
+
+@media screen and (max-width: 1350px) {
+    .sections section {
+        flex-basis: 33.33%;
+        /* antal sections fra 5 til 3 */
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sections section {
+        flex-basis: 50%;
+    }
 }
