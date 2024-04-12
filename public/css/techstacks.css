@@ -8,8 +8,8 @@
 
 html, body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #001427ff;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
+    background-color: #0B1622;
 }
 
 #headername {
@@ -18,6 +18,8 @@ html, body {
     color: #bf0603ff;
     margin: 0;
     margin-top: 10px;
+    font-weight: 800;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
 }
 
 #headertitel {
@@ -43,10 +45,10 @@ html, body {
 
 .techstacksimg {
     width: 80%;
-    border: 3px solid #f4d58dff;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 20px;
-    background-color: #708d81ff;
+    background-color: #151F2E;
+    padding: 30px;
 }
 
 .sections {
@@ -64,7 +66,10 @@ html, body {
     color: #f4d58dff;
     text-align: center;
     font-size: 2.2em;
+    font-weight: 600;
+    width: 110%;
 }
+
 
 /* @media screen and (min-width: 900px) and (max-width: 1300px) {
     .imgtext {
