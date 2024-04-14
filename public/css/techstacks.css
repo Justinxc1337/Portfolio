@@ -84,6 +84,42 @@ nav {
     width: 110%;
 }
 
+.flip-container {
+    perspective: 1000px;
+}
+
+.flip-container.flip .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color: #1c4b91; /* Add this line */
+    width: 100%; /* Add this line */
+    height: 100%; /* Add this line */
+    color: red;
+}
+
+.back p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
 
 /* @media screen and (min-width: 900px) and (max-width: 1300px) {
     .imgtext {

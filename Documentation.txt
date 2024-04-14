@@ -18,7 +18,8 @@ HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring
 
 * Fix mobile view of techstacks, slightly offput to the left, needs to be more centered
 Change techstacks from 5 to 6?. may reconsider when amount is higher
-
+Flippable image test was 50/50, may consider using method other place -
+- due to incomplete way to make it works good with techstacks.
 
 
 
