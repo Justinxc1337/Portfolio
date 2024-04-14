@@ -2,7 +2,30 @@ Website Color Codes
 /* CSS HEX */
 --oxford-blue: #001427ff; Website Background
 --hookers-green: #708d81ff; Third Important
---jasmine: #f4d58dff; idk
+--jasmine: #f4d58dff; Text
 --engineering-orange: #bf0603ff; Mostly Important
 --dark-red: #8d0801ff; Secondary Important
+--#0B1622;
+--#0e1c2e;
+--#151F2E;
+--#152232;
+
+-- Main index --
+
+
+-- Techstacks --
+HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py
+
+* Fix mobile view of techstacks, slightly offput to the left, needs to be more centered
+Change techstacks from 5 to 6?. may reconsider when amount is higher
+
+
+
+
+
+
+
+
+
+
 
