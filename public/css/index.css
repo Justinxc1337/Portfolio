@@ -8,8 +8,13 @@
 
 html, body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #001427ff;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
+    background-color: #0B1622;
+}
+
+header {
+    background-color: #0e1c2e;
+    margin: 0;
 }
 
 #headername {
@@ -17,6 +22,8 @@ html, body {
     text-align: center;
     color: #bf0603ff;
     margin: 0;
+    font-weight: 800;
+    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
 }
 
 #headertitel {
@@ -24,18 +31,35 @@ html, body {
     text-align: center;
     color: #8d0801ff;
     margin: 0;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #headerlinktext {
     text-decoration: none;
 }
 
-.navmenu {
-    margin-top: 20px;
+nav {
+    text-align: center;
+    background-color: #152232;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .navlinks {
     text-decoration: none;
     color: #708d81ff;
     margin: 10px;
+    font-size: 1.2em
+}
+
+.navlinks2 {
+    text-decoration: none;
+    color: rgb(103, 163, 138);
+    margin: 10px;
+    font-size: 1.2em
 }
