@@ -11,7 +11,7 @@ Website Color Codes
 --#152232;
 
 -- Main index --
-
+add social media sticky bar for socials x darkmode button
 
 -- Techstacks --
 HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py
@@ -22,6 +22,10 @@ Flippable image test was 50/50, may consider using method other place -
 - due to incomplete way to make it works good with techstacks.
 
 
+-- Game --
+Fix scaling
+Fix mobile views
+add info etc
 
 
 
