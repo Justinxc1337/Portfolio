@@ -15,6 +15,7 @@ html, body {
 header {
     background-color: #0e1c2e;
     margin: 0;
+    display: grid;
 }
 
 #headername {
@@ -42,7 +43,7 @@ a:hover {
     text-decoration: none;
 }
 
-nav {
+#navmenu {
     text-align: center;
     background-color: #152232;
     padding-top: 10px;
@@ -137,7 +138,6 @@ nav {
     border-radius: 50%;
   }
 
-  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -146,7 +146,6 @@ nav {
   transform: translateY(-50%);
 }
 
-/* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
@@ -156,7 +155,6 @@ nav {
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
   background-color: #000;
 }
@@ -178,12 +176,8 @@ nav {
   border-radius: 0px 0px 10px 0px;
 }
 
-.linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.youtube {
-  background: #bb0000;
-  color: white;
+@media (max-width: 500px) {
+  .icon-bar {
+      display: none;
+  }
 }
