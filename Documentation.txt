@@ -20,7 +20,7 @@ HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring
 Change techstacks from 5 to 6?. may reconsider when amount is higher
 Flippable image test was 50/50, may consider using method other place -
 - due to incomplete way to make it works good with techstacks.
-
+Finish top of page button
 
 -- Game --
 Fix scaling
