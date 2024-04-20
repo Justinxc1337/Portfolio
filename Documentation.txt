@@ -10,6 +10,8 @@ Website Color Codes
 --#151F2E;
 --#152232;
 
+@media mobile =< 499 - PC => 500
+
 -- Main index --
 add social media sticky bar for socials x darkmode button
 
@@ -28,7 +30,8 @@ Fix mobile views
 add info etc
 Finish Game, forsenDespair
 
-
+------
+add mobile view to all sites
 
 
 
