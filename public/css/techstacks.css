@@ -75,21 +75,20 @@ a:hover {
     }
 }
 
-
-/* Style the navigation menu */
 .topnav {
     display: none;
     overflow: hidden;
     background-color: #333;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-  /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
     display: none;
 }
 
-  /* Style navigation menu links */
 .topnav a {
     color: white;
     padding: 14px 16px;
@@ -98,7 +97,6 @@ a:hover {
     display: block;
 }
 
-  /* Style the hamburger menu */
 .topnav a.icon {
     background: black;
     display: block;
@@ -108,13 +106,11 @@ a:hover {
     padding-bottom: 17px;
 }
 
-  /* Add a grey background color on mouse-over */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-  /* Style the active link (or home/logo) */
 .active {
     background-color: #bf0603ff;
     color: white;
@@ -145,7 +141,6 @@ a:hover {
 .sections section {
     flex-basis: 19.5%;
     /* antal sections i hvert row = 5*/
-
 }
 
 .imgtext {
