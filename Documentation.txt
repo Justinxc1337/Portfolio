@@ -26,6 +26,7 @@ Finish top of page button
 Fix scaling
 Fix mobile views
 add info etc
+Finish Game, forsenDespair
 
 
 
