@@ -12,6 +12,13 @@ html, body {
     background-color: #0B1622;
 }
 
+#tempconstruction {
+    text-align: center;
+    color: red;
+    font-size: 4.5em;
+
+}
+
 header {
     background-color: #0e1c2e;
     margin: 0;
