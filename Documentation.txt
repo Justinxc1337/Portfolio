@@ -12,6 +12,10 @@ Website Color Codes
 
 @media mobile =< 499 - PC => 500
 
+-- Overall fixes --
+add mobile view to all sites
+Add new header to all sites + padding-top 
+
 -- Main index --
 add social media sticky bar for socials x darkmode button
 
@@ -30,8 +34,8 @@ Fix mobile views
 add info etc
 Finish Game, forsenDespair
 
-------
-add mobile view to all sites
+-- All Functions --
+http://127.0.0.1:3002/public/Cosmetic Functions/main.html
 
 
 
