@@ -92,6 +92,17 @@ nav a:hover::before {
   left: 0;
 }
 
+main {
+  padding-top: 70px;
+}
+
+#temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
 #headertext {
   font-size: 2.5em;
   text-align: center;
