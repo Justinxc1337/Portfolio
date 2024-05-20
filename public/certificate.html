@@ -1,22 +1,44 @@
-<html lang="dk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/certificate.css">
     <script src="js/certificate.js"></script>
-    <link rel="shortcut icon" type="image/png" href="images/aquanobg.png">
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Certificates</title>
 </head>
 <body>
+    <!-- navmenu {PC} -->
     <header>
-        <a href="index.html" id="headerlinktext"><h1 id="headername">Justin X.C. Portfolio</h1></a>
-        <h2 id="headertitel">Full-Stack Developer</h2>
+        <nav class="container">
+            <div class="logo">
+                <img src="images/logoResized.png" alt="Logo">
+                <span id="headertext">Justin X.C. Portfolio</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="techstacks.html">Tech-Stacks</a></li>
+                <li><a href="certificate.html">Certificates</a></li>
+                <li><a href="TheHiddenSecret.html">Game</a></li>
+                <li><a href="Cosmetic Functions/main.html">DontClick</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="index.html" class="navlinks2">Home</a>
-        <a href="techstacks.html" class="navlinks">Tech-Stacks</a>
-        <a href="certificate.html" class="navlinks">Certificates</a>
-        <a href="TheHiddenSecret.html" class="navlinks">Game</a>
+
+    <!-- navmenu {mobile} -->
+    <nav class="topnav">
+        <a href="index.html" class="active">Justin X.C. Portfolio - Full-Stack Developer</a>
+        <section id="myLinks">
+            <a href="index.html" class="navlinks2">Home</a>
+            <a href="techstacks.html" class="navlinks">Tech-Stacks</a>
+            <a href="certificate.html" class="navlinks">Certificates</a>
+            <a href="TheHiddenSecret.html" class="navlinks">Game</a>
+        </section>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
 
     <main>

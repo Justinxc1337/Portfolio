@@ -15,12 +15,15 @@ Website Color Codes
 -- Overall fixes --
 add mobile view to all sites
 Add new header to all sites + padding-top 
+make new and more modern stylish burgermenu
+fix sizing of links on current pc header
 
 -- Main index --
 add social media sticky bar for socials x darkmode button
 
 -- Techstacks --
-HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py
+images from https://www.flaticon.com/
+HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py, Vue.js, Inertia.js, Laravel, Xampp, Laragon, Daz 3D, Intellij IDEA, Tailwind CSS, Blade,  
 
 * Fix mobile view of techstacks, slightly offput to the left, needs to be more centered
 Change techstacks from 5 to 6?. may reconsider when amount is higher
@@ -35,7 +38,7 @@ add info etc
 Finish Game, forsenDespair
 
 -- All Functions --
-http://127.0.0.1:3002/public/Cosmetic Functions/main.html
+http://127.0.0.1:3000/public/Cosmetic%20Functions/main.html
 
 
 
