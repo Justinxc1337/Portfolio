@@ -18,8 +18,8 @@ let index = 0;
 
 function animateText() {
     document.getElementById('caption1').textContent = words[index];
-    document.getElementById('caption2').textContent = words[index];
+    // document.getElementById('caption2').textContent = words[index];
     index = (index + 1) % words.length;
 }
 
-setInterval(animateText, 2000);
+setInterval(animateText, 1500);

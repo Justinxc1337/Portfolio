@@ -356,6 +356,5 @@ a:hover {
     &:after {
     background: linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(11, 22, 34, 0.2));
     border-radius: 40px;
-
     }
 }

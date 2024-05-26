@@ -17,9 +17,13 @@ add mobile view to all sites
 Add new header to all sites + padding-top 
 make new and more modern stylish burgermenu
 fix sizing of links on current pc header
+Make header name clickable
+make a footer
 
 -- Main index --
-add social media sticky bar for socials x darkmode button
+do something more with darkmode button
+Showcase different github projects on index (Laravel Chatforum, Python webscraper etc)
+
 
 -- Techstacks --
 images from https://www.flaticon.com/
