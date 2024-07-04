@@ -94,7 +94,7 @@ input:checked + .slider:before {
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: rgb(66, 4, 1);
 }
 
 .linkedin {

@@ -17,17 +17,22 @@ add mobile view to all sites
 Add new header to all sites + padding-top 
 make new and more modern stylish burgermenu
 fix sizing of links on current pc header
-Make header name clickable
+Change whole header to classes and id's, same with the css
 make a footer
 
 -- Main index --
 do something more with darkmode button
 Showcase different github projects on index (Laravel Chatforum, Python webscraper etc)
 
+-- projects --
+PHP Laravel based CloudCRM
+My contracts listed work
+Web, iOS, android testing
+Different programming jobs, like Golang security camera
 
 -- Techstacks --
 images from https://www.flaticon.com/
-HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py, Vue.js, Inertia.js, Laravel, Xampp, Laragon, Daz 3D, Intellij IDEA, Tailwind CSS, Blade,  
+HTML5, CSS3, JavaScript, SQLITE3, MySQL, Java, Node.js, PHP, Python, NPM, Spring-Boot, VSCode, Git/Github, Unity, Ren'Py, Vue.js, Inertia.js, Laravel, Xampp, Laragon, Daz 3D, Intellij IDEA, Tailwind CSS, Blade, Golang, PowerShell, CentOS9, Microsoft Intune, Power BI, ESXI VMware,
 
 * Fix mobile view of techstacks, slightly offput to the left, needs to be more centered
 Change techstacks from 5 to 6?. may reconsider when amount is higher
