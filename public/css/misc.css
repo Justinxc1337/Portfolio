@@ -121,3 +121,24 @@ input:checked + .slider:before {
 }
 
 /* icon bar end */
+
+/* Custom Scrollbar and disable standard start */
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #bf0603ff, #8d0801ff, #f4d58dff, #f4d58dff, #8d0801ff, #bf0603ff);
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, violet, indigo, blue, green, yellow, orange, red);
+}
+
+/* Custom Scrollbar and disable standard end */
