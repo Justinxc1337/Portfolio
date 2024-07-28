@@ -20,3 +20,6 @@ html, body {
   color: red;
 }
 
+.Preview {
+  display: none;
+}
