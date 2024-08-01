@@ -19,6 +19,8 @@ make new and more modern stylish burgermenu
 fix sizing of links on current pc header
 Change whole header to classes and id's, same with the css
 make a footer
+Custom Scrollbar on all pages, so the website header doesnt get a relayout
+Secondary version of header, so it is less button but still PC version
 
 -- Main index --
 do something more with darkmode button
