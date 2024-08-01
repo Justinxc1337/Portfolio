@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="css/footer.css?v=1.0">
     <link rel="stylesheet" href="css/misc.css?v=1.0">
     <script src="js/projects.js?v=1.0"></script>
+    <script src="js/header.js?v=1.0"></script>
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Projects</title>
 </head>
 <body>
+    <!-- navmenu {PC} -->
     <!-- navmenu {PC} -->
     <header id="headerpc">
         <nav class="container">
@@ -32,6 +34,57 @@
                         <li><a href="">Pest</a></li>
                     </ul>
                 </li>
+                <li><a href="images/CVjxc.pdf" download class="cv-download">Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- navmenu {PC for smaller dimensions and tablets} -->
+    <header id="extramenu">
+        <nav class="container">
+            <div class="logo"> <a href="index.html">
+                <img src="images/logoResized.png" alt="Logo">
+                <span id="headertext">Justin X.C. Portfolio</span>
+            </div> </a>
+            <ul>
+                <li id="homeremove"><a href="index.html">Home</a></li>
+                <li>
+                    <a href=".html">Additional Projects<span class="dropdown-icon">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="techstacks.html">Tech-Stacks</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="TheHiddenSecret.html">Game</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contactinfo.html">Contact Info <span class="dropdown-icon">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="">Yest</a></li>
+                        <li><a href="">Test</a></li>
+                        <li><a href="">Pest</a></li>
+                    </ul>
+                </li>
+                <li id="cvremove"><a href="images/CVjxc.pdf" download class="cv-download">Download CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- navmenu {mobile} -->
+    <header id="headermobile">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logoResized.png" alt="Logo">
+                    <span id="headertext">Justin X.C. Portfolio</span>
+                </a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="techstacks.html">Tech-Stacks</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="TheHiddenSecret.html">Game - The Hidden Secret</a></li>
+                <li><a href="contactinfo.html">Contact Info</a></li>
                 <li><a href="images/CVjxc.pdf" download class="cv-download">Download CV</a></li>
             </ul>
         </nav>
