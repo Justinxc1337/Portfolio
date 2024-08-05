@@ -165,7 +165,7 @@ main {
   }
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1075px) {
   #headerpc {
     display: none;
   }
@@ -179,7 +179,7 @@ main {
   display: none;
 }
 
-@media (max-width: 1040px) {
+@media (max-width: 1075px) {
   #extramenu {
     display: flex;
   }
