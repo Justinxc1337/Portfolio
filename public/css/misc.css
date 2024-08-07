@@ -142,3 +142,15 @@ input:checked + .slider:before {
 }
 
 /* Custom Scrollbar and disable standard end */
+
+/* Custom Mouse Cursor start */
+
+body {
+  cursor: url('../images/cursor/DP-64x64.cur'), auto;
+}
+
+button, a, li {
+  cursor: url('../images/cursor/BR-64x64.cur'), auto;
+}
+
+/* Custom Mouse Cursor end */
