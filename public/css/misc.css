@@ -146,11 +146,11 @@ input:checked + .slider:before {
 /* Custom Mouse Cursor start */
 
 body {
-  cursor: url('../images/cursor/DP-64x64.cur'), auto;
+  cursor: url('../images/cursor/SimbaX1.cur'), auto;
 }
 
 button, a, li {
-  cursor: url('../images/cursor/BR-64x64.cur'), auto;
+  cursor: url('../images/cursor/SimbaY.cur'), auto;
 }
 
 /* Custom Mouse Cursor end */
