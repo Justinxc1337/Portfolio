@@ -68,8 +68,10 @@ section {
 
 /* Swiper Start */
 .swiper {
-  width: 800px;
-  height: 400px;
+  width: 80vw;
+  height: 40vh;
+  max-width: 800px;
+  max-height: 400px;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -90,6 +92,7 @@ section {
   left: 20px;
   color: rgb(253, 214, 122);
   font-weight: bold;
+  font-size: 1.5rem;
   letter-spacing: 0.8px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
@@ -101,5 +104,77 @@ section {
   height: 100%;
   object-fit: contain;
 }
-
 /* Swiper End */
+
+.introduction {
+  display: flex;
+  color: red;
+  font-size: 2rem;
+  margin: 0;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+  margin-left: 40px;
+  text-shadow: 4px 4px 4px black;
+}
+
+#lastIntroduction {
+  margin-bottom: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .swiper {
+    width: 90vw;
+    height: 45vh;
+  }
+
+  .introduction {
+    font-size: 1.5rem;
+    margin-left: 20px;
+  }
+
+  .slide-text {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    width: 95vw;
+    height: 50vh;
+  }
+
+  .introduction {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .slide-text {
+    font-size: 1rem;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper {
+    width: 100vw;
+    height: 55vh;
+  }
+
+  .introduction {
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+
+  .slide-text {
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+@media (max-width: 780px) {
+  .icon-bar {
+    display: none;
+  }
+}
