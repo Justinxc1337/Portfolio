@@ -40,3 +40,67 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const sections = document.querySelectorAll('main > section');
+    let currentSectionIndex = 0;
+
+    function scrollToSection(index) {
+        sections[index].scrollIntoView({ behavior: 'smooth' });
+    }
+
+    window.addEventListener('wheel', (event) => {
+        if (event.deltaY > 0) {
+            // Scrolling down
+            currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
+        } else {
+            // Scrolling up
+            currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
+        }
+        scrollToSection(currentSectionIndex);
+    });
+
+    window.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowDown') {
+            // Scrolling down
+            currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
+        } else if (event.key === 'ArrowUp') {
+            // Scrolling up
+            currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
+        }
+        scrollToSection(currentSectionIndex);
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const swiper = new Swiper('.swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        /* slidesPerView: 3,
+        spaceBetween: 30, */
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: true,
+        autoplay: {
+            delay: 3000,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+});
