@@ -6,17 +6,137 @@
 --dark-red: #8d0801ff;
 */
 
-html, body {
-    margin: 0;
-    font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
-    background-color: #0B1622;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Black', 'Roboto', sans-serif;
+  background-color: #0b1622;
+  color: #f4d58dff;
 }
 
-#temp {
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #0b1622;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.separator {
+  width: 2px;
+  background-color: #bf0603ff;
+  margin: 0 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #bf0603ff;
+  margin-bottom: 10px;
+}
+
+.details {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.details h2,
+.right-column h2 {
+  color: #bf0603ff;
+  margin-top: 20px;
+}
+
+.social-links {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: red;
+  margin-top: 10px;
 }
 
+.social-links a {
+  color: #f4d58dff;
+  font-size: 2rem;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #bf0603ff;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #bf0603ff;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #bf0603ff;
+  border-radius: 50%;
+}
+
+.timeline-content {
+  background-color: #151f2e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .left-column,
+  .right-column {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .details {
+    max-width: 100%;
+  }
+
+  .social-links a {
+    font-size: 1.5rem;
+  }
+}
