@@ -43,18 +43,40 @@ function myFunction() {
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const sections = document.querySelectorAll('main > section');
+    const pageIndicator = document.getElementById('page-indicator');
     let currentSectionIndex = 0;
+
+    // Create circles for each section
+    sections.forEach((section, index) => {
+        const circle = document.createElement('div');
+        circle.classList.add('circle');
+        if (index === 0) {
+            circle.classList.add('active');
+        }
+        pageIndicator.appendChild(circle);
+    });
+
+    const circles = document.querySelectorAll('.page-indicator .circle');
+
+    function updatePageIndicator(index) {
+        circles.forEach((circle, i) => {
+            if (i === index) {
+                circle.classList.add('active');
+            } else {
+                circle.classList.remove('active');
+            }
+        });
+    }
 
     function scrollToSection(index) {
         sections[index].scrollIntoView({ behavior: 'smooth' });
+        updatePageIndicator(index);
     }
 
     window.addEventListener('wheel', (event) => {
         if (event.deltaY > 0) {
-            // Scrolling down
             currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
         } else {
-            // Scrolling up
             currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
         }
         scrollToSection(currentSectionIndex);
@@ -62,24 +84,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     window.addEventListener('keydown', (event) => {
         if (event.key === 'ArrowDown') {
-            // Scrolling down
             currentSectionIndex = Math.min(currentSectionIndex + 1, sections.length - 1);
         } else if (event.key === 'ArrowUp') {
-            // Scrolling up
             currentSectionIndex = Math.max(currentSectionIndex - 1, 0);
         }
         scrollToSection(currentSectionIndex);
     });
 });
 
-
 document.addEventListener('DOMContentLoaded', (event) => {
     const swiper = new Swiper('.swiper', {
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
-        /* slidesPerView: 3,
-        spaceBetween: 30, */
+        slidesPerView: 'auto',
         coverflowEffect: {
             rotate: 50,
             stretch: 0,
@@ -102,5 +120,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         scrollbar: {
             el: '.swiper-scrollbar',
         },
+        breakpoints: {
+            480: {
+                navigation: {
+                    nextEl: null,
+                    prevEl: null,
+                }
+            }
+        }
     });
 });
