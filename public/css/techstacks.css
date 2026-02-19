@@ -13,11 +13,15 @@ html, body {
 }
 
 .techstacksimg {
-    width: 80%;
-    border-radius: 30px;
-    margin: 20px;
+    width: 100%;
+    border-radius: 20px;
     background-color: #151F2E;
-    padding: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 20px;
 }
 
 .sections {
@@ -26,16 +30,17 @@ html, body {
 }
 
 .sections section {
-    flex-basis: 19.5%;
-    /* antal sections i hvert row = 5*/
+    flex-basis: 16%;
+    /* antal sections i hvert row = 6*/
 }
 
 .imgtext {
     color: #f4d58dff;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 600;
-    width: 110%;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .flip-container {
@@ -104,22 +109,31 @@ html, body {
 
 @media (max-width: 500px) {
     .sections section {
-        flex-basis: 100%;
+        flex: 0 0 50%;
+        padding: 8px;
+    }
+    figure {
+        margin: 0px;
     }
     .techstacksimg {
-        width: 40%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
+        width: 100%;
+        padding: 15px;
     }
     .imgtext {
-        display: flex;
-        justify-content: center;
         width: 100%;
+        font-size: 1.7em;
+        text-align: center;
+    }
+    .sections section {
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+    .gradient {
+        font-size: 1.6em !important;
     }
 }
+
 
 @media (max-width: 499px) {
     .icon-bar {
@@ -127,6 +141,15 @@ html, body {
     }
 }
 
+@media (min-width: 1500px) {
+    .sections {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .sections section {
+        flex-basis: 16%;
+    }
+}
 #topofpage {
     display: none;
 }
@@ -162,4 +185,8 @@ html, body {
     background: linear-gradient(to left, rgba(255, 255, 255, 0.2), rgba(11, 22, 34, 0.2));
     border-radius: 40px;
     }
+}
+
+.animated-text {
+    font-size: 1.7em;
 }
