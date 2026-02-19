@@ -25,6 +25,7 @@ Secondary version of header, so it is less button but still PC version
 -- Main index --
 do something more with darkmode button
 Showcase different github projects on index (Laravel Chatforum, Python webscraper etc)
+fix swiper back and forth arrow, not working
 
 -- projects --
 PHP Laravel based CloudCRM

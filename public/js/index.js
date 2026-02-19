@@ -41,7 +41,7 @@ function myFunction() {
     }
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
+/* document.addEventListener('DOMContentLoaded', (event) => {
     const sections = document.querySelectorAll('main > section');
     const pageIndicator = document.getElementById('page-indicator');
     let currentSectionIndex = 0;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
         scrollToSection(currentSectionIndex);
     });
-});
+}); */
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const swiper = new Swiper('.swiper', {
