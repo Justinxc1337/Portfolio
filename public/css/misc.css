@@ -10,7 +10,7 @@
 }
 
 #DarkModetext {
-  color: #f4d58dff;
+  color: #ffd166;
 }
 
 .switch {
@@ -133,7 +133,7 @@ input:checked + .slider:before {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #bf0603ff, #8d0801ff, #f4d58dff, #f4d58dff, #8d0801ff, #bf0603ff);
+  background: linear-gradient(180deg, #bf0603ff, #8d0801ff, #ffd166, #ffd166, #8d0801ff, #bf0603ff);
   border-radius: 6px;
 }
 

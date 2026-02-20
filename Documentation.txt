@@ -2,7 +2,7 @@ Website Color Codes
 /* CSS HEX */
 --oxford-blue: #001427ff; Website Background
 --hookers-green: #708d81ff; Third Important
---jasmine: #f4d58dff; Text
+--jasmine: #ffd166; Text
 --engineering-orange: #bf0603ff; Mostly Important
 --dark-red: #8d0801ff; Secondary Important
 --#0B1622;

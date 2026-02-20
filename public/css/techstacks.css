@@ -1,7 +1,7 @@
 /* CSS HEX 
 --oxford-blue: #001427ff;
 --hookers-green: #708d81ff;
---jasmine: #f4d58dff;
+--jasmine: #ffd166;
 --engineering-orange: #bf0603ff;
 --dark-red: #8d0801ff;
 */
@@ -35,7 +35,7 @@ figure {
 }
 
 .imgtext {
-    color: #f4d58dff;
+    color: #ffd166;
     text-align: center;
     font-size: 1.8em;
     font-weight: 600;
