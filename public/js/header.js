@@ -32,3 +32,10 @@ function myFunction() {
         x.style.display = "block";
     }
 }
+
+// Loads header to all pages for cleanup and easier maintenance
+fetch("header.html")
+  .then(response => response.text())
+  .then(data => {
+    document.getElementById("header-placeholder").innerHTML = data;
+});
