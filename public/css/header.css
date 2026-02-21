@@ -109,6 +109,20 @@ main {
 }
 
 #headerpc .dropdown li {
+  position: relative;
+}
+
+#headerpc .sub-dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-top: 0px;
+  min-width: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#headerpc .has-submenu:hover > .sub-dropdown {
   display: block;
 }
 
@@ -124,7 +138,7 @@ main {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-#headerpc nav ul li:hover .dropdown {
+#headerpc nav > ul > li:hover > .dropdown {
   display: block;
 }
 
@@ -170,6 +184,8 @@ main {
     display: none;
   }
 }
+
+
 
 /* navmenu {web} end */
 
@@ -361,6 +377,10 @@ main {
   #homeremove {
     display: none !important;
   }
+}
+
+#headerpc nav ul li ul li:hover .dropdown-icon {
+  transform: rotate(90deg);
 }
 
 
