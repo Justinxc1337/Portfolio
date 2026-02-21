@@ -19,13 +19,13 @@ html, body {
   --jasmine: #f4d58d;
   --engineering-orange: #bf0603;
   --card-bg: #0b2239;
-  --soft-white: #f2f2f2;
+  --white: white;
 }
 
 .projects-page {
   background-color: var(--oxford-blue);
-  padding: 6rem 2rem;
-  color: var(--soft-white);
+  padding: 2rem 2rem;
+  color: var(--white);
 }
 
 .projects-container {
@@ -35,19 +35,32 @@ html, body {
 
 .page-title {
   font-size: 3rem;
-  color: var(--jasmine);
+  color: var(--engineering-orange);
   margin-bottom: 0.5rem;
 }
 
 .page-subtitle {
-  color: var(--hookers-green);
-  margin-bottom: 4rem;
+  color: var(--white);
+  margin-bottom: 0rem;
+  max-width: 600px;
+}
+
+.page-subtitle-secondary {
+  color: var(--white);
+  margin-bottom: 3rem;
   max-width: 600px;
 }
 
 .section-title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+  color: var(--jasmine);
+}
+
+.section-title-secondary {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  margin-top: 2em;
   color: var(--jasmine);
 }
 
@@ -81,7 +94,6 @@ html, body {
 .project-image img {
   width: 100%;
   height: 180px;
-  object-fit: cover;
 }
 
 .project-content {
@@ -93,14 +105,14 @@ html, body {
 
 .project-content h3 {
   margin-bottom: 1rem;
-  color: var(--soft-white);
+  color: var(--engineering-orange);
 }
 
 .project-content p {
   flex-grow: 1;
   font-size: 0.95rem;
   line-height: 1.5;
-  color: var(--hookers-green);
+  color: var(--white);
 }
 
 .project-tags {
