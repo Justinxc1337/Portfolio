@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     breakpoints: {
       480: {
         navigation: {
-          nextEl: null,
-          prevEl: null,
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       },
     },

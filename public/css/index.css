@@ -1,10 +1,19 @@
 /* CSS HEX 
 --oxford-blue: #001427ff;
---hookers-green: #708d81ff;
+--white: #708d81ff;
 --jasmine: #ffd166;
 --engineering-orange: #bf0603ff;
 --dark-red: #8d0801ff;
 */
+
+:root {
+  --oxford-blue: #001427;
+  --white: #708d81;
+  --jasmine: #f4d58d;
+  --engineering-orange: #bf0603;
+  --card-bg: #0b2239;
+  --white: white;
+}
 
 html,
 body {
@@ -27,7 +36,6 @@ main {
 
 section {
   scroll-snap-align: start;
-  flex: 0 0 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,6 +82,7 @@ section {
   z-index: 1;
   background: rgba(0, 0, 0, 0.5);
   padding: 20px;
+  flex: 0 0 100vh;
 }
 
 /* Swiper Start */
@@ -201,4 +210,115 @@ section {
 .page-indicator span {
   display: block;
   text-align: center;
+}
+
+/* Second Section */
+.secondSec {
+  background-color: var(--oxford-blue);
+  color: white;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.content-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.secondSec h2 {
+  color: var(--jasmine);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-intro {
+  color: var(--white);
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.tech-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-6px);
+}
+
+.tech-card h3 {
+  color: var(--engineering-orange);
+  margin-bottom: 0.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 3rem;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--engineering-orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.cta-btn:hover {
+  background-color: #d00000;
+}
+
+@media (min-width: 900px) {
+  .tech-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Third Section */
+.thirdSec {
+  background-color: #0b1622;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.project-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.preview-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.preview-card:hover {
+  transform: translateY(-6px);
+}
+
+.preview-card h3 {
+  color: var(--jasmine);
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 900px) {
+  .project-preview-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.thirdSec .content-wrapper h2 {
+  color: var(--engineering-orange);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
