@@ -130,3 +130,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     },
   });
 });
+
+
+// Content appearing when scrolling into view effect, hopefully
+document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll('.secondSec, .thirdSec');
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    targets.forEach(el => observer.observe(el));
+});

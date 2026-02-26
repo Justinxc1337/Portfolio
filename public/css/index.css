@@ -218,6 +218,14 @@ section {
   color: white;
   padding: 2rem 2rem 2rem 2rem;
   text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.secondSec.in-view {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .content-wrapper {
@@ -287,6 +295,14 @@ section {
   color: white;
   padding: 4rem 2rem;
   text-align: center;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.9s ease-out, transform 0.9s ease-out;
+}
+
+.thirdSec.in-view {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .project-preview-grid {
