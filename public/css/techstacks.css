@@ -100,23 +100,25 @@ figure {
 
 @media (max-width: 500px) {
     .sections section {
-        flex: 1 1 calc(50% - 13px);
-        max-width: none;
+        flex: 0 0 calc(50% - 13px);
+        max-width: calc(50% - 13px);
         padding: 8px;
         box-sizing: border-box;
     }
+
     figure {
-        margin: 0px;
+        margin: 0;
     }
+
     .techstacksimg {
-        width: 100%;
         padding: 15px;
     }
+
     .imgtext {
-        width: 100%;
         font-size: 1.7em;
         text-align: center;
     }
+
     .gradient {
         font-size: 1.6em !important;
     }
