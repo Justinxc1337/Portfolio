@@ -27,11 +27,15 @@ figure {
 .sections {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .sections section {
-    flex-basis: 16%;
-    /* antal sections i hvert row = 6*/
+    flex: 1 1 230px;
+    max-width: 250px;
 }
 
 .imgtext {
@@ -94,23 +98,12 @@ figure {
     
 } */
 
-@media screen and (max-width: 1350px) {
-    .sections section {
-        flex-basis: 33.33%;
-        /* antal sections fra 5 til 3 */
-    }
-}
-
-@media screen and (max-width: 850px) {
-    .sections section {
-        flex-basis: 50%;
-    }
-}
-
 @media (max-width: 500px) {
     .sections section {
-        flex: 0 0 50%;
+        flex: 1 1 calc(50% - 13px);
+        max-width: none;
         padding: 8px;
+        box-sizing: border-box;
     }
     figure {
         margin: 0px;
@@ -123,11 +116,6 @@ figure {
         width: 100%;
         font-size: 1.7em;
         text-align: center;
-    }
-    .sections section {
-    flex: 0 0 50%;
-    padding: 10px;
-    box-sizing: border-box;
     }
     .gradient {
         font-size: 1.6em !important;
