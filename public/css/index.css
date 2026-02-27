@@ -58,6 +58,32 @@ section {
   margin-bottom: 40px;
 }
 
+.primaryWelcome,
+.secondaryWelcome {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.primaryWelcome {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.secondaryWelcome {
+  animation: fadeIn 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* If Background should be smooth on all sections */
 /* body {
   background-image: url('../images/index/datacenter.gif');
@@ -166,11 +192,8 @@ section {
     font-size: 0.8rem;
     padding: 4px;
   }
-
-  @media (max-width: 780px) {
-    .icon-bar {
-      display: none;
-    }
+  .swiper-button-next, .swiper-button-prev {
+    display: none!important;
   }
 }
 
